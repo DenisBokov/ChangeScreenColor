@@ -31,11 +31,11 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func changeСolorView(_ sender: UISlider) {
+    @IBAction func changeСolorView() {
         
         shangeView()
-        
     }
+    
     
     private func shangeView() {
         
