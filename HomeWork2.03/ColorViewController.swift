@@ -29,17 +29,21 @@ class ColorViewController: UIViewController {
         
         setupSlider()
         
-        setupViewAndLabel()
+        setupView()
         
     }
 
     @IBAction func changeСolorView() {
         
-        setupViewAndLabel()
+        setupView()
+        
+        shangeTextLabel(redSlider, redSliderValue)
+        shangeTextLabel(greenSlider, greenSliderValue)
+        shangeTextLabel(blueSlider, blueSliderValue)
     }
     
     
-    private func setupViewAndLabel() {
+    private func setupView() {
         
         colorView.backgroundColor = UIColor(
             red: CGFloat(redSlider.value),
@@ -48,9 +52,6 @@ class ColorViewController: UIViewController {
             alpha: 1
         )
         
-        shangeTextLabel(redSlider, redSliderValue)
-        shangeTextLabel(greenSlider, greenSliderValue)
-        shangeTextLabel(blueSlider, blueSliderValue)
     }
     
     private func shangeTextLabel(_ colorSlider: UISlider, _ colorSliderLabel: UILabel) {
