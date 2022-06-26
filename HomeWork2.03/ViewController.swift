@@ -19,6 +19,9 @@ class ViewController: UIViewController {
     @IBOutlet var greenSliderValue: UILabel!
     @IBOutlet var blueSliderValue: UILabel!
     
+    private let maxValueSlider: Float = 1
+    private let minValueSlider: Float = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -54,14 +57,14 @@ class ViewController: UIViewController {
     
     private func setupSlider() {
         
-        redSlider.maximumValue = 1
-        redSlider.minimumValue = 0
+        redSlider.maximumValue = maxValueSlider
+        redSlider.minimumValue = minValueSlider
         
-        greenSlider.maximumValue = 1
-        greenSlider.minimumValue = 0
+        greenSlider.maximumValue = maxValueSlider
+        greenSlider.minimumValue = minValueSlider
         
-        blueSlider.maximumValue = 1
-        blueSlider.minimumValue = 0
+        blueSlider.maximumValue = maxValueSlider
+        blueSlider.minimumValue = minValueSlider
         
         redSlider.value = 0.25
         greenSlider.value = 0.35
