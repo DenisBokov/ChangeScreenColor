@@ -29,17 +29,17 @@ class ColorViewController: UIViewController {
         
         setupSlider()
         
-        shangeView()
+        setupViewAndLabel()
         
     }
 
     @IBAction func changeСolorView() {
         
-        shangeView()
+        setupViewAndLabel()
     }
     
     
-    private func shangeView() {
+    private func setupViewAndLabel() {
         
         colorView.backgroundColor = UIColor(
             red: CGFloat(redSlider.value),
@@ -59,14 +59,7 @@ class ColorViewController: UIViewController {
     
     private func setupSlider() {
         
-        redSlider.maximumValue = maxValueSlider
-        redSlider.minimumValue = minValueSlider
-        
-        greenSlider.maximumValue = maxValueSlider
-        greenSlider.minimumValue = minValueSlider
-        
-        blueSlider.maximumValue = maxValueSlider
-        blueSlider.minimumValue = minValueSlider
+        setValueSlider(redSlider, greenSlider, blueSlider)
         
         redSlider.value = 0.25
         greenSlider.value = 0.35
@@ -76,6 +69,13 @@ class ColorViewController: UIViewController {
         greenSlider.minimumTrackTintColor = .green
         blueSlider.minimumTrackTintColor = .blue
         
+    }
+    
+    private func setValueSlider(_ colorsSlider: UISlider...) {
+        for color in colorsSlider {
+            color.maximumValue = maxValueSlider
+            color.minimumValue = minValueSlider
+        }
     }
     
 }
