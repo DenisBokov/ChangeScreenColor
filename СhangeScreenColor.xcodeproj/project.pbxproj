@@ -42,7 +42,7 @@
 		EFF740B72865B8DD00FACCFB = {
 			isa = PBXGroup;
 			children = (
-				EFF740C22865B8DD00FACCFB /* HomeWork2.03 */,
+				EFF740C22865B8DD00FACCFB /* СhangeScreenColor */,
 				EFF740C12865B8DD00FACCFB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EFF740C22865B8DD00FACCFB /* HomeWork2.03 */ = {
+		EFF740C22865B8DD00FACCFB /* СhangeScreenColor */ = {
 			isa = PBXGroup;
 			children = (
 				EFF740C32865B8DD00FACCFB /* AppDelegate.swift */,
@@ -67,7 +67,7 @@
 				EFF740CE2865B8DE00FACCFB /* LaunchScreen.storyboard */,
 				EFF740D12865B8DE00FACCFB /* Info.plist */,
 			);
-			path = HomeWork2.03;
+			path = "СhangeScreenColor";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XL6Q59VDPK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork2.03/Info.plist;
+				INFOPLIST_FILE = "СhangeScreenColor/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +322,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XL6Q59VDPK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork2.03/Info.plist;
+				INFOPLIST_FILE = "СhangeScreenColor/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
