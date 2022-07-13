@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EFF740BB2865B8DD00FACCFB /* Build configuration list for PBXProject "HomeWork2.03" */;
+			buildConfigurationList = EFF740BB2865B8DD00FACCFB /* Build configuration list for PBXProject "СhangeScreenColor" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EFF740BB2865B8DD00FACCFB /* Build configuration list for PBXProject "HomeWork2.03" */ = {
+		EFF740BB2865B8DD00FACCFB /* Build configuration list for PBXProject "СhangeScreenColor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EFF740D22865B8DE00FACCFB /* Debug */,
