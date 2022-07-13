@@ -17,7 +17,6 @@ class MainViewController: UIViewController {
         view.backgroundColor = .purple
     }
     
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let colorVC = segue.destination as? ColorViewController else { return }
         colorVC.colorOneController = view.backgroundColor
