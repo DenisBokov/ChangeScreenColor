@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFA9F2C1287EA27E00C0859D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9F2C0287EA27E00C0859D /* MainViewController.swift */; };
 		EFF740C42865B8DD00FACCFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF740C32865B8DD00FACCFB /* AppDelegate.swift */; };
 		EFF740C62865B8DD00FACCFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF740C52865B8DD00FACCFB /* SceneDelegate.swift */; };
 		EFF740C82865B8DD00FACCFB /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF740C72865B8DD00FACCFB /* ColorViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EFA9F2C0287EA27E00C0859D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EFF740C02865B8DD00FACCFB /* HomeWork2.03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork2.03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF740C32865B8DD00FACCFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFF740C52865B8DD00FACCFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				EFF740C32865B8DD00FACCFB /* AppDelegate.swift */,
 				EFF740C52865B8DD00FACCFB /* SceneDelegate.swift */,
 				EFF740C72865B8DD00FACCFB /* ColorViewController.swift */,
+				EFA9F2C0287EA27E00C0859D /* MainViewController.swift */,
 				EFF740C92865B8DD00FACCFB /* Main.storyboard */,
 				EFF740CC2865B8DE00FACCFB /* Assets.xcassets */,
 				EFF740CE2865B8DE00FACCFB /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				EFF740C82865B8DD00FACCFB /* ColorViewController.swift in Sources */,
 				EFF740C42865B8DD00FACCFB /* AppDelegate.swift in Sources */,
 				EFF740C62865B8DD00FACCFB /* SceneDelegate.swift in Sources */,
+				EFA9F2C1287EA27E00C0859D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
